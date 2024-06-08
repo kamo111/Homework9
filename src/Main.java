@@ -1,8 +1,6 @@
 import java.util.Arrays;
 
 public class Main {
-    private static Object maxPaymentsCosts;
-    private static Object Arrays;
 
     public static void main(String[] args) {
         System.out.println("Задание 1.");
@@ -35,7 +33,7 @@ public class Main {
         for (int i = 0; i < newPaymentsCosts.length; i++) {
             newsum = newsum + newPaymentsCosts[i];
         }
-        System.out.println("Средняя сумма трат за месяц составила " + newsum/4 + " рублей");
+        System.out.println("Средняя сумма трат за месяц составила " + newsum/newPaymentsCosts.length + " рублей");
 
         System.out.println("Задание 4.");
         char[] reverseFullName = { 'n', 'a', 'v', 'I', ' ', 'v', 'o', 'n', 'a', 'v', 'I'};
